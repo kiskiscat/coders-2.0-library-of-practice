@@ -4,7 +4,7 @@
 
 ## Оглавление
 
-- [HTML и CSS](./html-and-css.md)
+- [HTML и CSS](./src/html-and-css.md)
 
 ## Внесение изменений
 
