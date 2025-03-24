@@ -11,6 +11,14 @@
 - Язык: EN
 - Адаптив: Нет
 
+**Лендинг ювелирных изделий:**
+- [Ссылка на макет Figma](https://www.figma.com/design/4zwJ5vHyzcH2YOJgi64qgL/Moon-River?node-id=0-1&p=f)
+- Ссылка на результат: TODO
+- Жанр: Landing Page
+- Сложность: Низкая
+- Язык: RU
+- Адаптив: Нет
+
 **Лендинг скриншотов и записи экрана:**
 
 - [Ссылка на макет Figma](https://www.figma.com/file/LCD1WamwG6cwfd1BzQZsSJ/Screenshoter?node-id=0%3A1)
