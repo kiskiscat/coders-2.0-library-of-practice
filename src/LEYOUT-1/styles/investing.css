@@ -1,0 +1,90 @@
+:root {
+    --color-text: #230B59;
+    --color-buttom-left: #4840BB;
+    --color-buttom-left-text: #FFFFFF;
+    --color-button-active: #b000f0;
+}
+
+.investing {
+    display: grid;
+    grid-template-columns: 33rem auto;
+    height: 75.0rem;
+    padding: 0 15rem;
+}
+
+.investing__image-block {
+    background: url("../pictures/images/investing.png") no-repeat center;
+    background-size: contain;
+    font-size: 0;
+    color: transparent;
+}
+
+.investing__description {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-content: center;
+}
+
+.investing__description__title {
+    font-size: 6.3rem;
+    line-height: 6rem;
+    color: var(--color-text);
+    font-weight: normal;
+    margin: 0;
+}
+
+.investing__description__p {
+    font-size: 1.55rem;
+    margin: 0;
+}
+
+.investing__links__listItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 3rem 0 0 0;
+}
+
+.investing__link_left {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: 14.5rem;
+    height: 4.5rem;
+    background: var(--color-buttom-left);
+    border-radius: 0.5rem;
+    color: var(--color-buttom-left-text);
+    font-weight: bold;
+}
+
+.investing__link_left:hover {
+    transform: scale(1.05);
+}
+
+.investing__link_left:active {
+    background: var(--color-button-active);
+}
+
+.investing__link_right {
+    display: grid;
+    align-content: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-text);
+    width: 8.5rem;
+    height: 2.2rem;
+    margin-left: 3rem;
+}
+
+.investing__link_right:hover {
+    text-decoration: underline;
+}
+
+.investing__link_right:active {
+    transform: scale(1.1);
+}

@@ -1,0 +1,74 @@
+:root{
+    --color-users-text: #230B59;
+    --color-users-link-background: #4840BB;
+    --color-users-link-text: #ffffff;
+}
+
+.users {
+    height: 125.2rem;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+}
+
+.users__image {
+    background: url("../pictures/images/users.png") no-repeat center;
+    background-size: contain;
+    color: transparent;
+    font-size: 0;
+    width: 60rem;
+    height: 60rem;
+    justify-self: center;
+}
+
+.users__title {
+    font-size: 5.8rem;
+    text-align: center;
+    width: 80rem;
+    color: var(--color-users-text);
+    font-weight: normal;
+    line-height: 6rem;
+    margin: 0;
+    justify-self: center;
+}
+
+.users__title_size_b {
+    font-weight: bold;
+}
+
+.users__link {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: var(--color-users-link-text);
+    background-color: var(--color-users-link-background);
+    justify-self: center;
+    width: 12.0rem;
+    height: 4.5rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+.users__link:hover {
+    transform: scale(1.05);
+}
+
+.users__link:active {
+    transform: scale(0.95);
+}
+
+.users__span {
+    color: var(--color-users-text);
+    justify-self: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    align-self: center;
+}
+
+.users__listItems {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 10rem;
+    list-style: none;
+}
