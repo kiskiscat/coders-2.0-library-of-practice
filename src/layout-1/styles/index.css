@@ -1,0 +1,29 @@
+@import "./header.css";
+@import "./home-block.css";
+@import "./partners-and-our-progress.css";
+@import "./investing.css";
+@import "./saving.css";
+@import "./content-block.css";
+@import "./testimonials.css";
+@import "./users.css";
+@import "./footer.css";
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
