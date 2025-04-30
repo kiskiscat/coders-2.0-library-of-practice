@@ -7,7 +7,7 @@
 
 .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 40% 60%;
     justify-content: space-between;
     min-height: 9.6rem;
     font-size: 1.6rem;
@@ -19,8 +19,6 @@
     align-items: center;
 }
 
-
-/* Hide the link under the pictures */
 .logo__link{
     width: 20.0rem;
     height: 2.6rem;
@@ -33,6 +31,7 @@
 .navigation {
     display: grid;
     align-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -41,7 +40,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     column-gap: 5.0rem;
     list-style: none;
 }
@@ -67,6 +66,7 @@
     column-gap: 1.0rem;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 .authorization__link {
@@ -97,7 +97,5 @@
 }
 
 .authorization__link:active {
-    /*background: var(--color-button-active);*/
-    /*color: var(--color-buttom-right);*/
     transform: scale(0.9);
 }
