@@ -7,23 +7,8 @@
 @import "./testimonials.css";
 @import "./users.css";
 @import "./footer.css";
-
-
-html {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+@import "reset-style.css";
+@import "variables.css";
 
 
 

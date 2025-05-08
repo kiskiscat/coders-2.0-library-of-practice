@@ -1,10 +1,3 @@
-:root {
-    --color-text: #230B59;
-    --color-buttom-left: #4840BB;
-    --color-buttom-right: #FFFFFF;
-    --color-button-active: #b000f0;
-}
-
 .header {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -48,7 +41,7 @@
 .navigation__link {
     display: block;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
     font-weight: 400;
 }
 
@@ -79,15 +72,15 @@
 }
 
 .authorization__link_left {
-    color: var(--color-buttom-left);
-    border: 0.1rem solid var(--color-buttom-left);
+    color: var(--color-megadrive-screen);
+    border: 0.1rem solid var(--color-megadrive-screen);
     width: 8.6rem;
     height: 4.7rem;
 }
 
 .authorization__link_right {
-    color: var(--color-buttom-right);
-    background: var(--color-buttom-left);
+    color: var(--color-white);
+    background: var(--color-megadrive-screen);
     width: 12.0rem;
     height: 4.5rem;
 }

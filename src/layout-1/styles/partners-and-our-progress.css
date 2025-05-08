@@ -1,87 +1,66 @@
-:root {
-    --color-text: #230B59;
-}
-
 .partners-and-our-progress {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     height: 13.5rem;
     padding: 0 5.0rem;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
 }
 
-.partner-first {
+.partners-and-our-progress__partner-first {
     display: grid;
     align-content: center;
     font-size: 1.2rem;
 }
 
-.partner-first__text {
+.partners-and-our-progress__partner-first_text {
     padding-top: 0.5rem;
 }
 
-.partner-second {
+.partners-and-our-progress__partner-second {
     display: grid;
     font-size: 1.2rem;
     align-content: center;
     justify-content: center;
 }
 
-.partner-second__text {
+.partners-and-our-progress__partner-second_text {
     padding-top: 1rem;
 }
 
-.clients {
+.partners-and-our-progress__clients {
     display: grid;
     font-size: 1.2rem;
     align-content: center;
     justify-content: end;
 }
 
-.clients__title {
+.partners-and-our-progress__clients_title {
     font-size: 2.7rem;
 }
 
-.funds {
+.partners-and-our-progress__funds {
     display: grid;
     font-size: 1.2rem;
     align-content: center;
     justify-content: end;
 }
 
-.funds__title {
+.partners-and-our-progress__funds_title {
     font-size: 2.5rem;
 }
 
-.application-apple {
+.partners-and-our-progress__application {
     display: grid;
     font-size: 1.2rem;
     align-content: center;
     justify-content: end;
 }
 
-.application-apple__text {
+.partners-and-our-progress__application_text {
     font-size: 2.4rem;
 }
 
-.application-apple__text::after {
-    content: '★';
-    position: absolute;
-}
-
-
-.application-android {
-    display: grid;
-    font-size: 1.2rem;
-    align-content: center;
-    justify-content: end;
-}
-
-.application-android__text {
-    font-size: 2.4rem;
-}
-
-.application-android__text::after {
+.partners-and-our-progress__application_text::after {
     content: '★';
     position: absolute;
 }

@@ -1,10 +1,3 @@
-:root {
-    --color-text: #230B59;
-    --color-buttom-left: #4840BB;
-    --color-buttom-left-text: #FFFFFF;
-    --color-button-active: #b000f0;
-}
-
 .saving {
     display: grid;
     grid-template-columns: auto 35rem;
@@ -28,7 +21,7 @@
 .saving__description__title {
     font-size: 5.1rem;
     line-height: 6rem;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
     font-weight: normal;
     margin: 0;
 }
@@ -54,9 +47,9 @@
     font-size: 1.6rem;
     width: 14.5rem;
     height: 4.5rem;
-    background: var(--color-buttom-left);
+    background: var(--color-megadrive-screen);
     border-radius: 0.5rem;
-    color: var(--color-buttom-left-text);
+    color: var(--color-white);
     font-weight: bold;
 }
 
@@ -65,7 +58,7 @@
 }
 
 .saving__link_left:active {
-    background: var(--color-button-active);
+    transform: scale(0.95);
 }
 
 .saving__link_right {
@@ -74,7 +67,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
     width: 8.5rem;
     height: 2.2rem;
 }

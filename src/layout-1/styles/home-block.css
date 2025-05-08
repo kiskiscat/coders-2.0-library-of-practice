@@ -1,10 +1,3 @@
-:root{
-    --color-text: #230B59;
-    --color-link: #ffffff;
-    --color-link-background: #4840BB;
-    --color-link-active: #b000f0;
-}
-
 .home-block {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -28,7 +21,7 @@
 
 .description__title {
     font-size: 5.0rem;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
     font-weight: 400;
     margin: 0;
 }
@@ -40,7 +33,7 @@
 
 .description__p {
     font-size: 1.5rem;
-    color: var(--color-text);
+    color: var(--color-indigo-sloth);
     margin: 3.5rem 0;
 }
 
@@ -53,8 +46,8 @@
     text-decoration: none;
     width: 12.0rem;
     height: 4.5rem;
-    color: var(--color-link);
-    background: var(--color-link-background);
+    color: var(--color-white);
+    background: var(--color-megadrive-screen);
     border-radius: 0.5rem;
 }
 
@@ -63,5 +56,5 @@
 }
 
 .description__link:active {
-    background: var(--color-link-active);
+    transform: scale(0.95);
 }

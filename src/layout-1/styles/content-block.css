@@ -1,14 +1,9 @@
-:root {
-    --color-background-content: #4840BB;
-    --color-content-text: #ffffff;
-}
-
 .content-block {
     height: 57.6rem;
     display: grid;
     grid-template-columns: 38rem auto;
     column-gap: 10rem;
-    background: var(--color-background-content);
+    background: var(--color-megadrive-screen);
     padding: 5rem 15rem;
 }
 
@@ -17,7 +12,7 @@
     grid-template-rows: repeat(2, auto);
     align-content: center;
     row-gap: 4rem;
-    color: var(--color-content-text);
+    color: var(--color-white);
 }
 
 .content-block__description__title {
@@ -35,7 +30,7 @@
 }
 
 .content-block__image {
-    background: url("../pictures/images/image.png") no-repeat center var(--color-background-content);
+    background: url("../pictures/images/image.png") no-repeat center var(--color-megadrive-screen);
     background-size: contain;
     font-size: 0;
     color: transparent;

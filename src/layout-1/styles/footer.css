@@ -1,14 +1,7 @@
-:root {
-    --color-background-footer: #18172B;
-    --color-footer-link: #ffffff;
-    --color-footer-text: #B7B7C0;: ;
-    --color-footer-link-active: #f000d0;: ;
-}
-
 .footer {
     height: 85rem;
     width: 100%;
-    background: var(--color-background-footer);
+    background: var(--color-sambucus);
     padding: 5rem;
     overflow: hidden;
 }
@@ -16,13 +9,13 @@
 .links {
     display: grid;
     height: 24rem;
-    border-bottom: 0.15rem solid var(--color-footer-text);
+    border-bottom: 0.15rem solid var(--color-silverware);
     grid-template-columns: repeat(2, 1fr);
 }
 
 .info {
     margin-top: 5rem;
-    color: var(--color-footer-text);
+    color: var(--color-silverware);
     font-size: 1.2rem;
 }
 
@@ -37,12 +30,12 @@
 
 .links__listItems__item {
     text-decoration: none;
-    color: var(--color-footer-link);
+    color: var(--color-white);
     font-size: 1.6rem;
 }
 
 .links__listItems__item:hover {
-    text-decoration: underline overline var(--color-footer-link-active);
+    text-decoration: underline overline var(--color-ferocious-flamingo);
 }
 
 .links__listItems__item:active {
