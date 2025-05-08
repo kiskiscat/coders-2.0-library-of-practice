@@ -1,0 +1,66 @@
+.partners-and-our-progress {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 13.5rem;
+    padding: 0 5.0rem;
+    color: var(--color-indigo-sloth);
+}
+
+.partners-and-our-progress__partner-first {
+    display: grid;
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.partners-and-our-progress__partner-first_text {
+    padding-top: 0.5rem;
+}
+
+.partners-and-our-progress__partner-second {
+    display: grid;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.partners-and-our-progress__partner-second_text {
+    padding-top: 1rem;
+}
+
+.partners-and-our-progress__clients {
+    display: grid;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: end;
+}
+
+.partners-and-our-progress__clients_title {
+    font-size: 2.7rem;
+}
+
+.partners-and-our-progress__funds {
+    display: grid;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: end;
+}
+
+.partners-and-our-progress__funds_title {
+    font-size: 2.5rem;
+}
+
+.partners-and-our-progress__application {
+    display: grid;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: end;
+}
+
+.partners-and-our-progress__application_text {
+    font-size: 2.4rem;
+}
+
+.partners-and-our-progress__application_text::after {
+    content: '★';
+    position: absolute;
+}
