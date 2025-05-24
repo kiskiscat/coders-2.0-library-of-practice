@@ -5,13 +5,14 @@
 **Лендинг инвестиций:**
 
 - [Ссылка на макет Figma](https://www.figma.com/file/tfkuf2EuJi28KaEXm5BFbZ/Wealthfront?node-id=1%3A2)
-- Ссылка на результат: TODO
+- [Ссылка на результат](./layout-1.zip)
 - Жанр: Landing Page
 - Сложность: Низкая
 - Язык: EN
 - Адаптив: Нет
 
 **Лендинг ювелирных изделий:**
+
 - [Ссылка на макет Figma](https://www.figma.com/design/4zwJ5vHyzcH2YOJgi64qgL/Moon-River?node-id=0-1&p=f)
 - Ссылка на результат: TODO
 - Жанр: Landing Page
